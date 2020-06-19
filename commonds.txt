@@ -30,8 +30,9 @@ cmd -git log -p -2    //set log quntity show all changes
 Press q for quite
 cmd - git diff    // show the different b/w corrent file and commit file (check working area or staging area)
 cmd - git diff --staged  	//compare with last commit 
-cmd - 
-
+cmd - git commit -a -m "skipped staging area and fixed <"
+// add and commit all file with a single command
+cmd - ls 	//Show list of all file  
 
 
 
