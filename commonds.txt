@@ -12,12 +12,26 @@ cmd - git status
 //give the status of file.
 cmd - git add index.html
 cmd - git commit
-// Press I and tyep initial commit then press ESC and :wq for exit commit
+//Open vim editor- Press I and tyep initial commit then press ESC and :wq for exit commit
 cmd - touch about.html	//create blank file
 cmd - git status      // check status after add file
 cmd - git add -A  	//Add all file at one time
 // if you modified the file then check status show modified your file
 ex.-	modified: about.html
+cmd - git commit -m "Added more htmls"   //commit without vim editor. all file at a time.
+cmd - clear 	//clear the terminal
+cmd - git checkout about.html      //Recovery of file content
+cmd - git checkout -f       //Recover all file at a time(Delete new content) set all file with privious commit
+cmd -  git log
+// show all your work
+ex - Author: dev24033 <devendramcajiwaji@gmail.com>
+ex - Date:   Fri Jun 19 14:29:04 2020 +0530
+cmd -git log -p -2    //set log quntity show all changes
+Press q for quite
+cmd - git diff    // show the different b/w corrent file and commit file (check working area or staging area)
+cmd - git diff --staged  	//compare with last commit
+
+
 
 
 
