@@ -31,6 +31,9 @@ Press q for quite
 cmd - git diff    // show the different b/w corrent file and commit file (check working area or staging area)
 cmd - git diff --staged  	//compare with last commit 
 cmd - git commit -a -m "skipped staging area and fixed <"
+git commit -a -m "adding west <"        //add file
+git commit -a -m "removind west <"		//remove west file
+
 // add and commit all file with a single command
 cmd - ls 	//Show list of all file  
 cmd - git rm --cached west.html //remove file with staging area
