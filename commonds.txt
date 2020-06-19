@@ -34,6 +34,7 @@ cmd - git commit -a -m "skipped staging area and fixed <"
 // add and commit all file with a single command
 cmd - ls 	//Show list of all file  
 cmd - git rm --cached west.html //remove file with staging area
+cmd - git rm    // remove/delete file in directory stracture. after commit
 
 
 
