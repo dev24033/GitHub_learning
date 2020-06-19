@@ -29,7 +29,8 @@ ex - Date:   Fri Jun 19 14:29:04 2020 +0530
 cmd -git log -p -2    //set log quntity show all changes
 Press q for quite
 cmd - git diff    // show the different b/w corrent file and commit file (check working area or staging area)
-cmd - git diff --staged  	//compare with last commit
+cmd - git diff --staged  	//compare with last commit 
+cmd - 
 
 
 
