@@ -1,3 +1,15 @@
+Git imp cmd------------
+git config --global user.email "devendramcajiwaji@gmail.com"
+git config --global user.name "Dev"
+1.	git init
+2.	git add[filename] || -A
+3.	git status
+4.	git commit -m "msg"
+5.	git remote add origin repoName ex-repository link(URL)
+6.	git push origin master
+7.	git clone repoName
+8.	git pull origin master
+---------------------------------------------------------------
 Customize commonds
 git config --global user.name dev24033
 git config --global user.email devendramcajiwaji@gmail.com
@@ -47,7 +59,19 @@ cmd - git push origin master (Add local file to git server)
 ---------------------------------------------------------------
 
 cmd - git clone https://github.com/dev24033/GitHub_learning.git (Clone with HTTPS link copy and paste after git clone, downloads git project)
+cmd - git pull origin master //update the fiel and add new file in git clone folder
+-------------------------------------------------------------
+If you add new fiel and changed the content then add file and commit after then use cmd - git push origin master
+cmd - git push origin master //this command use after finish work
+--------------------------------------------------------
 
+-------------------Git Branches------------------------
+cmd - git branch branch name // create new branch
+cmd - git branch	// Show all branches
+  demo1
+  demo2
+* master   // * show active branch/ master is live branch
+cmd - git checkout demo2	// switch to another branch.
 
 git config –global user.email "devendramcajiwaji@gmail.com"
 git config –global user.name "dev24033"
