@@ -74,9 +74,14 @@ cmd - git branch	// Show all branches
 cmd - git checkout demo2	// switch to another branch.
 cmd - git add -A // add new file
 cmd - git commit -m "msg" // commit all file in selected branch
-cmd - $ git checkout master //Switched to branch 'master'
+cmd - git merge demo2 	// merge onother branch data in live branch.
+<<<<<<< HEAD
+cmd - git checkout master //Switched to branch 'master'
 
 
+=======
+cmd - git branch master //move to live branch
+>>>>>>> demo2
 
 git config –global user.email "devendramcajiwaji@gmail.com"
 git config –global user.name "dev24033"
