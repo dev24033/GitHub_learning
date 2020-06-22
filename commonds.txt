@@ -38,8 +38,15 @@ git commit -a -m "removind west <"		//remove west file
 cmd - ls 	//Show list of all file  
 cmd - git rm --cached west.html //remove file with staging area
 cmd - git rm    // remove/delete file in directory stracture. after commit
+cmd - git status -s 	//short status
+cmd - touch .gitignore	//create this file for ignore data and file.
+---------------------------------------------------------------
+Repo name - :https://github.com/dev24033/GitHub_learning.git (repositories URL)
+cmd -:git remote add origin https://github.com/dev24033/GitHub_learning.git (Link project to repositories)
+cmd - git push origin master (Add local file to git server)
+---------------------------------------------------------------
 
-
+cmd - git clone https://github.com/dev24033/GitHub_learning.git (Clone with HTTPS link copy and paste after git clone, downloads git project)
 
 
 git config –global user.email "devendramcajiwaji@gmail.com"
